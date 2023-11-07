@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileExplorer.Infrastructure\FileExplorer.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\Architecture\Architecting-Modern-Web-Applications-with-ASP.NET-Core-and-Azure.sdfsdf" />
+    <_ContentIncludedByDefault Remove="wwwroot\Frontend\Vue Tips Collection (M. Thiessen).pdf" />
+    <_ContentIncludedByDefault Remove="wwwroot\Frontend\Vue-Essentials-Cheat-Sheet.pdf" />
+  </ItemGroup>
+
+</Project>
